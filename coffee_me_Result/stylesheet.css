@@ -1,0 +1,186 @@
+
+
+/*navnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnav
+navnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnavnav */
+
+header{
+  /* background-color: white; */
+  /* border: 2px solid #333;
+  border-style: dashed; */
+
+}
+
+
+/* sectionsectionsectionsectionsectionsectionsectionsectionsectionsectionsectionsection
+sectionsectionsectionsectionsectionsectionsectionsectionsectionsectionsectionsection */
+
+
+/* section-0 */
+/* #section-0{
+  background: url(resource/img/white_mug.png);
+  background-size: cover;
+  background-position: center;
+} */
+
+
+.blend-button{
+  width: 150px;
+  height:80px;
+  background-color: #fff;
+  border: 2px solid #333;
+  color: #333;
+  line-height: 50px;
+}
+
+.blend-button:hover {
+  border-style: dashed;
+}
+
+
+
+/* section-01 */
+
+#section-01{
+  background-color: #fff;
+  /* background-color: #EEF0F8; */
+
+
+  /* border-top: 1px dashed black; */
+}
+
+
+
+
+/* section-1 */
+/* Aさん */
+
+.asan-img{
+  width: 280px;
+}
+
+.bg-bb{
+  background-size: cover;
+  /* background: url(./resource/img/bb.png) */
+  background: url(./resource/img/bb_wodden.jpeg)
+}
+
+.tag-photo-01{
+  width: 100vmin;
+}
+
+
+/* #section-2 */
+/* 成分表示 */
+
+#section-2{
+  background-size: cover;
+  background: url(./resource/img/bg_craft.jpg)
+}
+
+.feature-1 p{
+  position: absolute;
+  top:30%;
+  left: 20%;
+  /* -webkit-transform: scale3d(2,2,1); */
+
+}
+
+        /* レスポンシブ */
+        /* ブレークポイント */
+@media screen and (max-width:544px){
+  /*画面幅が544pxまでの時*/
+
+  .features p {
+    font-size: 5vmin;
+  }
+}
+
+@media screen and (min-width:545px){
+  /*画面幅が545px以上の時*/
+  .features p{
+    font-size: 2vmin;
+
+  }
+
+}
+
+
+/* #section-3 */
+/* ---------------レーダーチャート ---------------*/
+/* vminめちゃめちゃ便利、レスポンシブ即興 */
+
+.xchart{
+  margin: 0 auto;
+}
+
+#section-3{
+  /* background-size: cover;
+  background: url(./resource/img/bg_water.jpg) */
+}
+
+.chart-text-box{
+  position: absolute;
+}
+
+.chart-text{
+  font-size: 10vmin;
+  width: 10vmin;
+}
+
+.chart-percent{
+  position: absolute;
+  left:4vmin;
+  font-size:20px;
+}
+
+.kaori{left: 10vmin; top:64vmin;
+}
+.ama{left:-2vmin; top:20vmin;
+}
+.koku{right:1vmin; top :20vmin;
+}
+.shibu{right:11vmin; top:64vmin;
+}
+.niga{left: 34vmin; bottom:80vmin;
+}
+
+
+
+
+/* ---------------#section-04---------------- */
+/* モックアップ */
+
+.mockup-img{
+}
+
+
+
+
+
+
+/* #section-5 */
+
+.button {
+  background-color: #fff;
+  border: 2px solid #333;
+  color: #333;
+  line-height: 50px;
+  width: 55px;
+}
+.button:hover {
+  border-style: dashed;
+}
+
+.under-logo-img{
+  width: 50vmin;
+}
+
+
+
+
+/* --------------Footer--------------- */
+
+
+.copyright-img{
+  width:100px;
+}

@@ -1,0 +1,85 @@
+
+/* ----------font---------- */
+
+@font-face{
+  font-family: 'Diner';
+  src: url('./resource/font/Diner-Obese.woff') format('woff');
+}
+.font-Diner-bigspace{
+  font-family: 'Diner';
+  letter-spacing: 4px;
+  font-size: 70px;
+  line-height: 1.2em;
+  vertical-align: middle;
+}
+
+.font-Diner{
+    font-family: 'Diner';
+}
+
+.font-15{
+  font-size: 15px;
+}
+.font-20{
+  font-size: 20px;
+}
+.font-40{
+  font-size: 40px;
+}
+
+.font-opa{
+  opacity: 0.7;
+}
+
+.line-height-20{
+  line-height: 20px;
+}
+
+.line-height-40{
+  line-height: 40px;
+}
+
+.letter-spacing-2{
+  letter-spacing: 4px;
+}
+
+/* -----------img------------- */
+
+img{
+  width: 100%;
+}
+
+/* ------------bg-------------- */
+
+
+/* パーソナライズ */
+.me-color-yellow{
+  color: #f0f078;
+  /* color: #f2ce7a; */
+}
+
+.me-color-dark{
+  color: #707272;
+}
+
+.text-white{
+  color: white;
+}
+
+.text-black{
+  color: black;
+}
+
+.text-gray{
+  color: gray;
+}
+
+
+/* ----------------div------------------- */
+
+
+.dashed-box{
+  background-color: white;
+  border-top: 1px dashed #333;
+  /* border-style: dashed; */
+}
